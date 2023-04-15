@@ -4,11 +4,50 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>地球圖輯隊Copy</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
-    <nav></nav>
+    <header class="position-absolute top-0 start-0 end-0">
+      <a
+        class="logo-container d-flex flex-column align-items-center position-absolute top-0 start-0"
+      >
+        <svg
+          class="logo mb-3"
+          style="width: 50px; height: 50px"
+          xmlns="http://www.w3.org/2000/svg"
+          width="184"
+          viewBox="0 0 184 184"
+        >
+          <g transform="translate(4 4)">
+            <circle
+              cx="88"
+              cy="88"
+              r="88"
+              fill="none"
+              stroke="#00a2e4"
+              stroke-width="8"
+            ></circle>
+            <path
+              d="M 77.13 73.163 a 30.4 30.4 0 0 0 -6.963 -10.448 a 31.657 31.657 0 0 0 -10.8 -6.813 a 38.515 38.515 0 0 0 -14.02 -2.446 h -25.75 v 66.118 h 25.75 a 38.815 38.815 0 0 0 14.02 -2.424 a 31.235 31.235 0 0 0 10.8 -6.813 a 30.6 30.6 0 0 0 6.963 -10.471 a 37.23 37.23 0 0 0 0 -26.7 Z M 65.236 96.277 a 20.127 20.127 0 0 1 -4.253 7.316 a 18.563 18.563 0 0 1 -6.73 4.6 a 23.509 23.509 0 0 1 -8.9 1.6 H 32.22 V 63.245 h 13.132 a 23.525 23.525 0 0 1 8.9 1.6 a 18.578 18.578 0 0 1 6.73 4.6 a 20.147 20.147 0 0 1 4.253 7.316 a 33.108 33.108 0 0 1 0 19.525 Z m 35.821 -19.525 a 20.633 20.633 0 0 1 4.276 -7.339 a 18.431 18.431 0 0 1 6.73 -4.618 a 25.562 25.562 0 0 1 17.805 0 a 18.226 18.226 0 0 1 6.706 4.618 a 20.823 20.823 0 0 1 4.253 7.339 a 32.607 32.607 0 0 1 0 19.525 a 20.592 20.592 0 0 1 -4.253 7.316 a 18.343 18.343 0 0 1 -6.706 4.6 a 25.562 25.562 0 0 1 -17.805 0 a 18.549 18.549 0 0 1 -6.73 -4.6 a 20.382 20.382 0 0 1 -4.276 -7.316 a 32.606 32.606 0 0 1 0 -19.525 Z m 40.471 37.472 a 30.229 30.229 0 0 0 5.748 -5.19 a 31.489 31.489 0 0 0 4.275 -6.47 a 34.189 34.189 0 0 0 2.687 -7.568 a 39.185 39.185 0 0 0 -0.163 -17.719 a 32.866 32.866 0 0 0 -3.2 -8.139 a 31.484 31.484 0 0 0 -5.116 -6.79 a 30.674 30.674 0 0 0 -6.8 -5.167 a 34.4 34.4 0 0 0 -8.319 -3.292 a 38.72 38.72 0 0 0 -9.674 -1.166 a 37.12 37.12 0 0 0 -13.972 2.54 A 31.226 31.226 0 0 0 89.189 73.05 a 37.845 37.845 0 0 0 0 26.932 a 31.226 31.226 0 0 0 17.805 17.791 a 37.113 37.113 0 0 0 13.973 2.538 a 41.116 41.116 0 0 0 5.211 -0.32 a 36.794 36.794 0 0 0 4.883 -0.96 l 9.908 10.7 a 7.913 7.913 0 0 0 3.295 2.195 a 12.858 12.858 0 0 0 4.042 0.595 h 10.375 Z"
+              fill="#00a2e4"
+              fill-rule="evenodd"
+            ></path>
+          </g>
+        </svg>
+        <span class="logo-title fs-3">地球圖輯隊</span>
+      </a>
+    </header>
+    <nav class="login position-absolute end-0 top-0 p-1">
+      <button class="btn btn-outline-primary py-1 px-2">登入</button>
+    </nav>
     <div
       id="carouselExampleIndicators"
       class="carousel slide w-100 h-auto asr16_9 position-relative mb-5 max-h-70vh"
@@ -74,6 +113,9 @@
             class="slider_img d-block w-100 h-100 object-fit-cover d-block"
             alt="..."
           />
+          <p class="carousel-title position-absolute">
+            機械大象不再流眼淚：用科技取代為娛樂人類而痛苦的動物
+          </p>
         </div>
         <div class="carousel-item h-100">
           <img
@@ -81,6 +123,9 @@
             class="slider_img d-block w-100 h-100 object-fit-cover d-block"
             alt="..."
           />
+          <p class="carousel-title position-absolute">
+            FBI藝術犯罪小組告訴你：別相信從自家倉庫挖出稀世珍寶這種事
+          </p>
         </div>
         <div class="carousel-item h-100">
           <img
@@ -88,6 +133,9 @@
             class="slider_img d-block w-100 h-100 object-fit-cover d-block"
             alt="..."
           />
+          <p class="carousel-title position-absolute">
+            編織遺愛　美國媒合平台為你穿針引線，縫補喪親之痛
+          </p>
         </div>
         <div class="carousel-item h-100">
           <img
@@ -95,6 +143,9 @@
             class="slider_img d-block w-100 h-100 object-fit-cover d-block"
             alt="..."
           />
+          <p class="carousel-title position-absolute">
+            以神之名，在台灣｜專訪前攝理教教徒諾亞：「他們把我騙得這麼慘」
+          </p>
         </div>
         <div class="carousel-item h-100">
           <img
@@ -102,6 +153,9 @@
             class="slider_img d-block w-100 h-100 object-fit-cover d-block"
             alt="..."
           />
+          <p class="carousel-title position-absolute">
+            當炸彈在眼前倒數，性別重要嗎？利比亞首批女性排雷人員
+          </p>
         </div>
         <div class="carousel-item h-100">
           <img
@@ -109,6 +163,9 @@
             class="slider_img d-block w-100 h-100 object-fit-cover d-block"
             alt="..."
           />
+          <p class="carousel-title position-absolute">
+            「突破次元壁！越前龍馬在舞台上打網球」在2.5次元的世界裡沒有不可能
+          </p>
         </div>
         <div class="carousel-item h-100">
           <img
@@ -116,11 +173,14 @@
             class="slider_img d-block w-100 h-100 object-fit-cover d-block"
             alt="..."
           />
+          <p class="carousel-title position-absolute">
+            「我不覺得我是人」北韓監獄，人權煉獄：強暴、墮胎、私刑、吃蟲果腹
+          </p>
         </div>
       </div>
       <!-- carousel-control-prev -->
       <button
-        class="BS_carousel_control BS_carousel_control_prev"
+        class="BS_carousel_control BS_carousel_control_prev o-0"
         type="button"
         data-bs-target="#carouselExampleIndicators"
         data-bs-slide="prev"
@@ -132,7 +192,7 @@
       </button>
       <!-- carousel-control-next -->
       <button
-        class="BS_carousel_control BS_carousel_control_next"
+        class="BS_carousel_control BS_carousel_control_next o-0"
         type="button"
         data-bs-target="#carouselExampleIndicators"
         data-bs-slide="next"
@@ -143,21 +203,333 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <div class="card" style="width: 18rem">
-      <img class="card-img-top" src="./imgs/card1.avif" alt="Card image cap" />
-      <div class="card-body">
-        <h5 class="card-title">
-          「離職與跳槽，是為了更好的我」配屬扭蛋大暴死，日本年輕人的逆襲
-        </h5>
-        <p class="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+    <div class="card-container">
+      <div class="row row-cols-1 row-cols-xl-2 row-cols-xxl-4">
+        <div class="col mb-2">
+          <div class="card" style="width: 100%">
+            <a href="" class="img-wrapper">
+              <img
+                class="card-img-top"
+                src="./imgs/card1.avif"
+                alt="Card image cap"
+              />
+            </a>
+            <div class="card-body">
+              <div class="tag-group mb-1">
+                <button class="btn btn-secondary py-0 px-1 me-1">日本</button>
+                <button class="btn btn-secondary py-0 px-1 me-auto">
+                  企業
+                </button>
+                <i
+                  class="tag fa-solid fa-tag"
+                  data-bs-toggle="tooltip"
+                  data-bs-title="查看更多標籤"
+                ></i>
+              </div>
+              <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                  Some placeholder content for the collapse component. This
+                  panel is hidden by default but revealed when the user
+                  activates the relevant trigger.
+                </div>
+              </div>
+
+              <a href="" class="post-title">
+                <h5 class="card-title">
+                  「離職與跳槽，是為了更好的我」配屬扭蛋大暴死，日本年輕人的逆襲
+                </h5>
+              </a>
+              <div class="card-tail d-flex">
+                <span class="card-time me-auto">2023-4-14</span>
+                <i class="bookmark fa-regular fa-bookmark"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-2">
+          <div class="card" style="width: 100%">
+            <a href="" class="img-wrapper">
+              <img
+                class="card-img-top"
+                src="./imgs/card2.avif"
+                alt="Card image cap"
+              />
+            </a>
+            <div class="card-body">
+              <div class="tag-group mb-1">
+                <button class="btn btn-secondary py-0 px-1 me-auto">
+                  地球
+                </button>
+                <i
+                  class="tag fa-solid fa-tag"
+                  data-bs-toggle="tooltip"
+                  data-bs-title="查看更多標籤"
+                ></i>
+              </div>
+
+              <a href="" class="post-title">
+                <h5 class="card-title">
+                  超車中國，印度即將成為全世界人口數最多的國家
+                </h5>
+              </a>
+              <div class="card-tail d-flex">
+                <span class="card-time me-auto">2023-4-13</span>
+                <i class="bookmark fa-regular fa-bookmark"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-2">
+          <div class="card" style="width: 100%">
+            <a href="" class="img-wrapper">
+              <img
+                class="card-img-top"
+                src="./imgs/card3.avif"
+                alt="Card image cap"
+              />
+            </a>
+            <div class="card-body">
+              <div class="tag-group mb-1">
+                <button class="btn btn-secondary py-0 px-1 me-auto">
+                  社會
+                </button>
+                <i
+                  class="tag fa-solid fa-tag"
+                  data-bs-toggle="tooltip"
+                  data-bs-title="查看更多標籤"
+                ></i>
+              </div>
+
+              <a href="" class="post-title">
+                <h5 class="card-title">
+                  「我不覺得我是人」北韓監獄，人權煉獄：強暴、墮胎、私刑、吃蟲果腹
+                </h5>
+              </a>
+              <div class="card-tail d-flex">
+                <span class="card-time me-auto">2023-04-10</span>
+                <i class="bookmark fa-regular fa-bookmark"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-2">
+          <div class="card" style="width: 100%">
+            <a href="" class="img-wrapper">
+              <img
+                class="card-img-top"
+                src="./imgs/card4.avif"
+                alt="Card image cap"
+              />
+            </a>
+            <div class="card-body">
+              <div class="tag-group mb-1">
+                <button class="btn btn-secondary py-0 px-1 me-auto">
+                  日常
+                </button>
+                <i
+                  class="tag fa-solid fa-tag"
+                  data-bs-toggle="tooltip"
+                  data-bs-title="查看更多標籤"
+                ></i>
+              </div>
+
+              <a href="" class="post-title">
+                <h5 class="card-title">
+                  「親愛的，我把房子縮小了」流水線生產微型房屋，引領未來住宅概念
+                </h5>
+              </a>
+              <div class="card-tail d-flex">
+                <span class="card-time me-auto">2023-04-10</span>
+                <i class="bookmark fa-regular fa-bookmark"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-2">
+          <div class="card" style="width: 100%">
+            <a href="" class="img-wrapper">
+              <img
+                class="card-img-top"
+                src="./imgs/card5.avif"
+                alt="Card image cap"
+              />
+            </a>
+            <div class="card-body">
+              <div class="tag-group mb-1">
+                <button class="btn btn-secondary py-0 px-1 me-auto">
+                  動漫
+                </button>
+                <i
+                  class="tag fa-solid fa-tag"
+                  data-bs-toggle="tooltip"
+                  data-bs-title="查看更多標籤"
+                ></i>
+              </div>
+
+              <a href="" class="post-title">
+                <h5 class="card-title">
+                  「突破次元壁！越前龍馬在舞台上打網球」在2.5次元的世界裡沒有不可能
+                </h5>
+              </a>
+              <div class="card-tail d-flex">
+                <span class="card-time me-auto">2023-04-07</span>
+                <i class="bookmark fa-regular fa-bookmark"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-2">
+          <div class="card" style="width: 100%">
+            <a href="" class="img-wrapper">
+              <img
+                class="card-img-top"
+                src="./imgs/card6.avif"
+                alt="Card image cap"
+              />
+            </a>
+            <div class="card-body">
+              <div class="tag-group mb-1">
+                <button class="btn btn-secondary py-0 px-1 me-auto">
+                  科技
+                </button>
+                <i
+                  class="tag fa-solid fa-tag"
+                  data-bs-toggle="tooltip"
+                  data-bs-title="查看更多標籤"
+                ></i>
+              </div>
+
+              <a href="" class="post-title">
+                <h5 class="card-title">
+                  「擁抱AI，遠離元宇宙」迪士尼、微軟與Meta紛紛裁員、解散相關部門
+                </h5>
+              </a>
+              <div class="card-tail d-flex">
+                <span class="card-time me-auto">2023-04-07</span>
+                <i class="bookmark fa-regular fa-bookmark"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-2">
+          <div class="card" style="width: 100%">
+            <a href="" class="img-wrapper">
+              <img
+                class="card-img-top"
+                src="./imgs/card7.avif"
+                alt="Card image cap"
+              />
+            </a>
+            <div class="card-body">
+              <div class="tag-group mb-1">
+                <button class="btn btn-secondary py-0 px-1 me-auto">
+                  性別
+                </button>
+                <i
+                  class="tag fa-solid fa-tag"
+                  data-bs-toggle="tooltip"
+                  data-bs-title="查看更多標籤"
+                ></i>
+              </div>
+
+              <a href="" class="post-title">
+                <h5 class="card-title">
+                  當炸彈在眼前倒數，性別重要嗎？利比亞首批女性排雷人員
+                </h5>
+              </a>
+              <div class="card-tail d-flex">
+                <span class="card-time me-auto">2023-04-06</span>
+                <i class="bookmark fa-regular fa-bookmark"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-2">
+          <div class="card" style="width: 100%">
+            <a href="" class="img-wrapper">
+              <img
+                class="card-img-top"
+                src="./imgs/card8.avif"
+                alt="Card image cap"
+              />
+            </a>
+            <div class="card-body">
+              <div class="tag-group mb-1">
+                <button class="btn btn-secondary py-0 px-1 me-auto">
+                  社會
+                </button>
+                <i
+                  class="tag fa-solid fa-tag"
+                  data-bs-toggle="tooltip"
+                  data-bs-title="查看更多標籤"
+                ></i>
+              </div>
+
+              <a href="" class="post-title">
+                <h5 class="card-title">澳洲「超級」退休金，保你晚年沒煩惱</h5>
+              </a>
+              <div class="card-tail d-flex">
+                <span class="card-time me-auto">2023-03-31</span>
+                <i class="bookmark fa-regular fa-bookmark"></i>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="card"></div>
+
+    <nav class="vstack w150px">
+      <a class="vstack justify-content-center align-items-center"
+        ><i class="fa-solid fa-house"></i><span>首頁</span></a
+      >
+      <a class="vstack justify-content-center align-items-center"
+        ><i class="fa-solid fa-magnifying-glass"></i><span>搜尋</span></a
+      >
+      <a class="vstack justify-content-center align-items-center"
+        ><i class="fa-solid fa-list"></i><span>列表</span></a
+      >
+      <a class="vstack justify-content-center align-items-center"
+        ><i class="fa-regular fa-compass"></i><span>導覽</span></a
+      >
+      <a class="vstack justify-content-center align-items-center"
+        ><i class="fa-solid fa-hand-holding-dollar"></i><span>贊助</span></a
+      >
+    </nav>
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script>
+      //carousel
+      let isSlideHovering = false;
+      const carousel = document.querySelector(".carousel");
+      const nextButton = document.querySelector('[data-bs-slide="next"]');
+      const nextAndPrev = document.querySelectorAll(".BS_carousel_control");
+      nextAndPrev.forEach((el) => {
+        console.log(el);
+      });
+      carousel.addEventListener("mouseenter", () => {
+        isSlideHovering = true;
+        nextAndPrev.forEach((el) => {
+          el.classList.remove("o-0");
+        });
+      });
+      carousel.addEventListener("mouseleave", () => {
+        isSlideHovering = false;
+        nextAndPrev.forEach((el) => {
+          el.classList.add("o-0");
+        });
+      });
+      setInterval(() => {
+        if (!isSlideHovering) {
+          nextButton.click();
+        }
+      }, 1500);
+      //tool tip
+      const tooltipTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="tooltip"]'
+      );
+      const tooltipList = [...tooltipTriggerList].map(
+        (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+      );
+    </script>
   </body>
 </html>
 <!-- 
